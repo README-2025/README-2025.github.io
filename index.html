@@ -62,7 +62,8 @@
           <div class="columns is-centered">
             <div class="column has-text-centered">
               <h1 class="title is-1 publication-title">
-                Robust Error-Aware Digital Signature via Deep Watermarking Model
+                README: Robust Error-Aware Digital Signature via Deep
+                Watermarking Model
               </h1>
 
               <div class="is-size-5 publication-authors">
@@ -98,7 +99,7 @@
                   <!-- Arxiv PDF link -->
                   <span class="link-block">
                     <a
-                      href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf"
+                      href=""
                       target="_blank"
                       class="external-link button is-normal is-rounded is-dark"
                     >
@@ -109,24 +110,10 @@
                     </a>
                   </span>
 
-                  <!-- Supplementary PDF link -->
-                  <span class="link-block">
-                    <a
-                      href="static/pdfs/supplementary_material.pdf"
-                      target="_blank"
-                      class="external-link button is-normal is-rounded is-dark"
-                    >
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
                   <!-- Github link -->
                   <span class="link-block">
                     <a
-                      href="https://github.com/YOUR REPO HERE"
+                      href="https://github.com/Eenrue/ERPA"
                       target="_blank"
                       class="external-link button is-normal is-rounded is-dark"
                     >
@@ -140,7 +127,7 @@
                   <!-- ArXiv abstract Link -->
                   <span class="link-block">
                     <a
-                      href="https://arxiv.org/abs/<ARXIV PAPER ID>"
+                      href=""
                       target="_blank"
                       class="external-link button is-normal is-rounded is-dark"
                     >
@@ -195,101 +182,117 @@
         </div>
       </div>
     </section>
+
+    <section class="section hero">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">ERPA Module</h2>
+            <div class="content has-text-justified">
+              <img src="static/images/ERPA.jpg" alt="MY ALT TEXT" />
+              <p>
+                To enable error-aware watermarking suitable for cryptographic
+                use cases, we propose ERPA, a novel mechanism designed to
+                improve the bit-level reliability of watermark decoding under
+                distortion. ERPA enhances bit-level watermark reliability
+                through a deterministic encoder and a noise-robust neural
+                decoder. The encoder spatially distributes error vectors using a
+                Distinct Circular Subsum Sequence (DCSS), allowing the decoder
+                to recover the original error pattern even under distortion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- End paper abstract -->
-
-    <!-- Image carousel -->
-    <section class="hero is-small">
-      <div class="hero-body">
-        <div class="container">
-          <div id="results-carousel" class="carousel results-carousel">
-            <div class="item">
-              <!-- Your image here -->
-              <img src="static/images/carousel1.jpg" alt="MY ALT TEXT" />
-              <h2 class="subtitle has-text-centered">
-                First image description.
-              </h2>
-            </div>
-            <div class="item">
-              <!-- Your image here -->
-              <img src="static/images/carousel2.jpg" alt="MY ALT TEXT" />
-              <h2 class="subtitle has-text-centered">
-                Second image description.
-              </h2>
-            </div>
-            <div class="item">
-              <!-- Your image here -->
-              <img src="static/images/carousel3.jpg" alt="MY ALT TEXT" />
-              <h2 class="subtitle has-text-centered">
-                Third image description.
-              </h2>
-            </div>
-            <div class="item">
-              <!-- Your image here -->
-              <img src="static/images/carousel4.jpg" alt="MY ALT TEXT" />
-              <h2 class="subtitle has-text-centered">
-                Fourth image description.
-              </h2>
+    <section class="section hero is-small">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Overall Framework</h2>
+            <div class="content has-text-justified">
+              <img src="static/images/framework.jpg" alt="MY ALT TEXT" />
+              <p>
+                README, our proposed framework, unifies a croppingbased
+                embedding strategy with the ERror PAinting Module. While recent
+                deep learning-based watermarking techniques have significantly
+                advanced in imperceptibility and robustness, they remain
+                insufficient for cryptographic applications due to limited
+                payload capacity and vulnerability to minor image distortions
+                that can lead to critical bit-level errors during extraction.
+                These limitations hinder their use in high-assurance scenarios
+                such as digital signature verification, which require both high
+                capacity and near-zero bit error rates. As shown in the Figure,
+                our framework addresses these challenges via modular components
+                for capacity scaling, error correction, and perceptual
+                hash-based signature verification.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End image carousel -->
 
-    <!-- Video carousel -->
-    <section class="hero is-small">
-      <div class="hero-body">
-        <div class="container">
-          <h2 class="title is-3">Another Carousel</h2>
-          <div id="results-carousel" class="carousel results-carousel">
-            <div class="item item-video1">
-              <video
-                poster=""
-                id="video1"
-                autoplay
-                controls
-                muted
-                loop
-                height="100%"
-              >
-                <!-- Your video file here -->
-                <source src="static/videos/carousel1.mp4" type="video/mp4" />
-              </video>
-            </div>
-            <div class="item item-video2">
-              <video
-                poster=""
-                id="video2"
-                autoplay
-                controls
-                muted
-                loop
-                height="100%"
-              >
-                <!-- Your video file here -->
-                <source src="static/videos/carousel2.mp4" type="video/mp4" />
-              </video>
-            </div>
-            <div class="item item-video3">
-              <video
-                poster=""
-                id="video3"
-                autoplay
-                controls
-                muted
-                loop
-                height="100%"
-              >
-                \
-                <!-- Your video file here -->
-                <source src="static/videos/carousel3.mp4" type="video/mp4" />
-              </video>
+    <!-- End paper abstract -->
+    <section class="section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Quantitative Results</h2>
+            <div class="content has-text-justified">
+              <img src="static/images/Quan1.png" alt="MY ALT TEXT" />
+              <p>
+                We report PSNR, SSIM, BER, and Zero BER Image Rate (Z.B.I.R) to
+                assess both visual fidelity and reliable message recovery. M.L.
+                is the maximum embeddable message length, while Eval. Payload is
+                the actual payload used in evaluation, adjusted to account for
+                ERPA's redundancy. Paired settings use equal Eval. Payload for
+                fair comparison. With ERPA, the system achieves 100% Z.B.I.R
+                under near-ideal conditions, ensuring robust signature
+                verification without sacrificing visual quality. This
+                demonstrates that our method meets the dual demands of
+                perceptual fidelity and cryptographic reliability, making it
+                suitable for our framework.
+              </p>
+              <img src="static/images/Quan2.png" alt="MY ALT TEXT" />
+              <p>
+                In the 8 × 8 grid setting required by our framework, Z.B.I.R is
+                reduced to just 1.2%. However, ERPA significantly improves
+                robustness. In our README framework, BER dropped from 0.6679 to
+                0.1395, while Z.B.I.R rose dramatically from 1.2% to 86.3%.
+                These improvements demonstrate that ERPA enables
+                cryptographic-level reliability even under distortion,
+                validating its effectiveness as a lightweight, model-agnostic
+                enhancement. These results confirm that the proposed framework
+                enables reliable digital signature embedding while preserving
+                the model's robustness, even under image distortions.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End video carousel -->
+
+    <!-- End paper abstract -->
+    <section class="section hero">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Qualitative Results</h2>
+            <div class="content has-text-justified">
+              <img src="static/images/Qual.jpg" alt="MY ALT TEXT" />
+              <p>
+                Visual comparison between original and watermarked images shows
+                that our crop-based method preserves structural details and
+                introduces no perceptible artifacts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Paper poster -->
     <section class="hero is-small is-light">
@@ -312,7 +315,11 @@
     <section class="section" id="BibTeX">
       <div class="container is-max-desktop content">
         <h2 class="title">BibTeX</h2>
-        <pre><code>BibTex Code Here</code></pre>
+        <pre><code>@misc{choi2025readme,
+  title={README: Robust Error-Aware Digital Signature via Deep Watermarking Model},
+  author={Hyunwook Choi and Sangyun Won and Daeyeon Hwang and Junhyeok Choi},
+  year={2025}
+}</code></pre>
       </div>
     </section>
     <!--End BibTex citation -->
